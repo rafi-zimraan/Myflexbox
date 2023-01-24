@@ -1,0 +1,54 @@
+* {
+  background-color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.container {
+  border: 3px solid black;
+  width: 600px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    background-color: blueviolet;
+    padding: 40px 0;
+  }
+}
+
+main {
+  background-color: burlywood;
+  padding: 17px;
+  flex: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  background-color: rgb(43, 43, 225);
+  padding: 60px 0;
+}
+
+nav {
+  background-color: rgb(246, 17, 63);
+  padding: 100px 0;
+}
+
+footer {
+  background-color: darkgray;
+  padding: 20px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  flex: 1px;
+}
